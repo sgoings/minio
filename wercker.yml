@@ -1,0 +1,10 @@
+box: sgoings/go-dev:0.2.0
+build:
+  steps:
+    - wercker/setup-go-workspace:
+        package-dir: github.com/deis/minio
+
+    #- sgoings/glide-install "https://github.com/sgoings/step-glide-install/archive/master.tar.gz"
+
+    - script:
+        code: make bootstrap build

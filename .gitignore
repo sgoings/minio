@@ -1,3 +1,6 @@
 rootfs/bin/minio
 rootfs/bin/boot
 vendor/
+/_builds
+/_steps
+/_projects

@@ -4,7 +4,7 @@ metadata:
   name: deis-minio-rc
   labels:
     heritage: deis
-    release: 0.0.1-20151028155016
+    release: 0.0.1-20151207153138
 spec:
   replicas: 1
   selector:
